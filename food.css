@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #c4875a, #8c5a3c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.appetit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.appetit-card {
+    width: 300px;
+    height: 600px;
+    background: #2c1b10;
+    border-radius: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Title */
+.appetit-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Decorative Dots */
+.appetit-decor {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.red {
+    background: #ff4d4d;
+    top: 0;
+    left: -40px;
+}
+
+.blue {
+    background: #4d90ff;
+    top: 30px;
+    right: -40px;
+}
+
+.yellow {
+    background: #ffa500;
+    top: 60px;
+    left: 0;
+}
+
+/* Food Images */
+.appetit-images {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 10px;
+}
